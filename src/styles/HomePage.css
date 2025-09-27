@@ -35,7 +35,6 @@
   100% { width: 0 }
 }
 
-
 @keyframes blink {
   50% { border-color: transparent }
 }
@@ -69,7 +68,6 @@
   box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.25);
 }
 
-
 /* Centered Title */
 .center-title {
   display: flex;
@@ -78,23 +76,46 @@
   height: 40vh;
 }
 
+/* ECG Pulse Line Effect */
+.apria-container {
+  position: relative;
+  display: inline-block;
+}
+
 .apria-title {
   font-size: 3rem;
   color: #0d6efd;
-  text-shadow: 0 0 10px rgba(13, 110, 253, 0.6);
-  animation: heartbeat 1.5s infinite ease-in-out;
-  transform-origin: center;
+  text-align: center;
+  z-index: 2;
+  position: relative;
 }
 
-@keyframes heartbeat {
-  0%   { transform: scale(1); text-shadow: 0 0 10px rgba(13, 110, 253, 0.6); }
-  10%  { transform: scale(1.2); text-shadow: 0 0 20px rgba(13, 110, 253, 0.8); }
-  20%  { transform: scale(1); text-shadow: 0 0 10px rgba(13, 110, 253, 0.6); }
-  30%  { transform: scale(1.15); text-shadow: 0 0 18px rgba(13, 110, 253, 0.7); }
-  40%  { transform: scale(1); text-shadow: 0 0 10px rgba(13, 110, 253, 0.6); }
-  100% { transform: scale(1); text-shadow: 0 0 10px rgba(13, 110, 253, 0.6); }
+/* ECG Line */
+.ecg-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: 1;
 }
 
+/* Pulse Wave Animation */
+.pulse-wave {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/3/3c/EKG_wave.svg') repeat-x;
+  background-size: contain;
+  animation: movePulse 2s linear infinite;
+}
+
+@keyframes movePulse {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
 
 /* Bottom Info Section */
 .info-section-horizontal {

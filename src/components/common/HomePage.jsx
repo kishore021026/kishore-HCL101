@@ -20,10 +20,16 @@ function HomePage() {
         </nav>
       </div>
 
-      {/* Centered Title */}
+      {/* Centered Title with ECG Line */}
       <div className="center-title">
-        <h1 className="apira-title">Apira Healthcare</h1>
+        <div className="apria-container">
+          <h1 className="apria-title">Apira Healthcare</h1>
+          <div className="ecg-line">
+            <div className="pulse-wave"></div>
+          </div>
+        </div>
       </div>
+
 
       {/* Bottom Info Section */}
       <div className="info-section-horizontal">
