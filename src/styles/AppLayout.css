@@ -10,7 +10,7 @@
 
 /* White content block stretches with content */
 .content-sheet {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
   width: 90%;
   padding: 2rem;
   border-radius: 12px;
