@@ -22,7 +22,7 @@ function HomePage() {
 
       {/* Centered Title */}
       <div className="center-title">
-        <h1 className="aspira-title">Apira Healthcare</h1>
+        <h1 className="apira-title">Apira Healthcare</h1>
       </div>
 
       {/* Bottom Info Section */}
