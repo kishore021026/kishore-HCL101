@@ -1,0 +1,55 @@
+.equip-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.equip-wrapper h2 {
+  font-size: 1.8rem;
+  color: #0d6efd;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.equip-card {
+  background-color: #f9fcff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.equip-card h3 {
+  font-size: 1.3rem;
+  color: #0a58ca;
+  margin-bottom: 0.75rem;
+}
+
+.equip-card ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.equip-note {
+  background-color: #fff8e6;
+  padding: 1.25rem;
+  border-left: 5px solid #f0ad4e;
+  border-radius: 8px;
+}
+
+.equip-note h4 {
+  font-size: 1.2rem;
+  color: #a65c00;
+  margin-bottom: 0.5rem;
+}
+
+.equip-note ul {
+  list-style-type: square;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
