@@ -1,0 +1,44 @@
+.dme-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.dme-wrapper h2 {
+  font-size: 1.8rem;
+  color: #0d6efd;
+  text-align: center;
+}
+
+.dme-box {
+  background-color: #f9fcff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+}
+
+.dme-box h3 {
+  font-size: 1.4rem;
+  color: #0a58ca;
+  margin-top: 1.5rem;
+}
+
+.dme-box p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.dme-box ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.dme-box li strong {
+  color: #0a58ca;
+}

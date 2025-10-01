@@ -1,0 +1,73 @@
+/* Wrapper and Title */
+.provider-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.provider-wrapper h2 {
+  font-size: 1.8rem;
+  color: #0d6efd;
+  text-align: center;
+}
+
+/* Horizontal Provider Cards */
+.provider-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.provider-card {
+  background-color: #f9fcff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 400px;
+  flex: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.provider-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.provider-card h3 {
+  font-size: 1.4rem;
+  color: #0a58ca;
+  margin-bottom: 0.5rem;
+}
+
+.provider-card ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* ✅ Patient Section Styling */
+.patient-section {
+  background-color: #f9fcff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  align-self: stretch;
+}
+
+.patient-section ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.patient-section li strong {
+  color: #0a58ca;
+}

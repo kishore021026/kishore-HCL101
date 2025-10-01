@@ -4,6 +4,12 @@ import CustomerGroups from './components/topics/CustomerGroups';
 import CoreProducts from './components/topics/CoreProducts';
 import EquipmentClassification from './components/topics/EquipmentClassification';
 import RevenueCycle from './components/topics/RevenueCycle';
+import InsuranceTypes from './components/topics/InsuranceTypes';
+import InsuranceTerms from './components/topics/InsuranceTerms';
+import InsuranceAbbreviations from './components/topics/InsuranceAbbreviations';
+import ProviderTypes from './components/topics/ProviderTypes';
+import BasicDenials from './components/topics/BasicDenials';
+import DMEandAppeals from './components/topics/DMEandAppeals';
 
 // import ThankYou from './components/topics/ThankYou';
 import './styles/AppLayout.css';
@@ -21,6 +27,12 @@ function App() {
            <CoreProducts />
            <EquipmentClassification />
            <RevenueCycle />
+           <InsuranceTypes />
+           <InsuranceTerms />
+            <InsuranceAbbreviations />
+            <ProviderTypes />
+             <BasicDenials />
+             <DMEandAppeals />
 
           {/* <ThankYou /> */}
         </section>

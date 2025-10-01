@@ -1,0 +1,45 @@
+.terms-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.terms-wrapper h2 {
+  font-size: 1.8rem;
+  color: #0d6efd;
+  text-align: center;
+}
+
+.terms-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.term-card {
+  background-color: #f9fcff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.term-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.term-card h3 {
+  font-size: 1.3rem;
+  color: #0a58ca;
+  margin-bottom: 0.5rem;
+}
+
+.term-card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}

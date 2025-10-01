@@ -1,0 +1,39 @@
+.denial-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.denial-wrapper h2 {
+  font-size: 1.8rem;
+  color: #dc3545;
+  text-align: center;
+}
+
+.denial-box {
+  background-color: #fff5f5;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+}
+
+.denial-box ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.denial-box li strong {
+  color: #b02a37;
+}
+
+.denial-box code {
+  background-color: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,88 @@
+.insurance-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.insurance-wrapper h2 {
+  font-size: 1.8rem;
+  color: #0d6efd;
+  text-align: center;
+}
+
+.section-label {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0a58ca;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.insurance-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.insurance-card {
+  background-color: #f9fcff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 300px;
+  flex: 1;
+  min-width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.insurance-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.insurance-card h3 {
+  font-size: 1.3rem;
+  color: #0a58ca;
+  margin-bottom: 0.75rem;
+}
+
+.insurance-card p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.insurance-card ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.sub-list {
+  list-style-type: circle;
+  margin-left: 2rem;
+  color: #555;
+}
+
+.note {
+  background-color: #fff3cd;
+  padding: 0.75rem;
+  border-left: 4px solid #ffc107;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #856404;
+  border-radius: 8px;
+}
+
+.commercial-header {
+  background-color: #e0f0ff;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+}
