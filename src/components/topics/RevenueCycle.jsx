@@ -66,7 +66,7 @@ function RevenueCycle() {
             <tbody>
               <tr>
                 <td>ICD (Disease)</td>
-                <td>1 letter + 3 digits + decimal</td>
+                <td>1 letter + 2 digits + decimal</td>
                 <td>G47.33 (OSA), F41.1 (Anxiety)</td>
               </tr>
               <tr>
